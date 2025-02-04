@@ -20,6 +20,7 @@
     padding: 20px;
     display: flex;
     align-items: center;
+    font-family: 'Times New Roman', Times, serif;
  }
 
  textarea {
@@ -40,6 +41,8 @@
    height: 30px;
    width: 30px;
    margin-left: 50px;
+   font-family: Arial, Helvetica, sans-serif
+
  }
  .carrinho {
    height: 20px;
@@ -88,4 +91,26 @@ a {
 
 a:hover {
    background-color: rgb(107, 107, 107); 
+}
+
+.pagina_principal {
+   display: flex;
+   margin: 30px;
+   gap: 2%;
+}
+
+.produto img {
+   width: 100%; /* Ajusta a largura conforme necessário */
+    max-width: 200px; /* Define um tamanho máximo */
+    display: block; /* Remove espaços extras abaixo da imagem */
+    margin: 0 auto; /* Centraliza a imagem */
+   
+}
+
+.titulo-produto {
+   font-size: 16px; /* Tamanho da fonte */
+   color: #333; /* Cor do texto */
+   margin-top: 8px; /* Espaço entre a imagem e o título */
+   font-weight: bold; /* Deixa o texto mais destacado */
+   font-size: 18px;
 }
